@@ -35,11 +35,11 @@
     "@expo/config-plugins": "^5.0.4"
   },
   "devDependencies": {
-    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.2",
+    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.4",
     "expo-module-scripts": "^3.0.4"
   },
   "peerDependencies": {
-    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.2",
+    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.4",
     "@expo/config-plugins": "^5.0.4",
     "expo": "*",
     "expo-notifications": "^0.17.0"
