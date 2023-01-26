@@ -38,7 +38,7 @@ const withConfigureRepository: ConfigPlugin<MarketingCloudSdkPluginProps> = (
       newSrc: `        maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }`,
       anchor: /mavenLocal\(\)/,
       offset: 1,
-      tag: "@orustecnologia/expo-marketingcloudsdk(maven:repositories)",
+      tag: "@orustecnologia/expo-plugin-marketingcloudsdk(maven:repositories)",
       comment: "//",
     }).contents;
 
@@ -51,7 +51,7 @@ const withConfigureRepository: ConfigPlugin<MarketingCloudSdkPluginProps> = (
       newSrc: `    implementation 'com.salesforce.marketingcloud:marketingcloudsdk:${"8.0.4"}'`,
       anchor: /dependencies\s?{/,
       offset: 1,
-      tag: "@orustecnologia/expo-marketingcloudsdk(maven:dependencies)",
+      tag: "@orustecnologia/expo-plugin-marketingcloudsdk(maven:dependencies)",
       comment: "//",
     }).contents;
 
@@ -92,7 +92,7 @@ import android.util.Log;
       `.trim(),
       anchor: /public class MainApplication/,
       offset: 0,
-      tag: "@orustecnologia/expo-marketingcloudsdk(header)",
+      tag: "@orustecnologia/expo-plugin-marketingcloudsdk(header)",
       comment: "//",
     }).contents;
 
