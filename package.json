@@ -1,0 +1,69 @@
+{
+  "name": "@orustecnologia/expo-plugin-marketingcloudsdk",
+  "version": "1.0.0",
+  "author": "Orus Tecnologia LTDA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orustecnologia/expo-plugin-marketingcloudsdk/issues"
+  },
+  "description": "Custom Expo Module for implement Salesforce MarketingCloudSDK",
+  "sideEffects": false,
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/README.md",
+    "/build/**/*",
+    "/ios/**/*",
+    "/plugin/build/**/*",
+    "/app.plugin.js",
+    "/unimodule.json",
+    "/package.json"
+  ],
+  "scripts": {
+    "expo-module": "expo-module",
+    "prepare": "expo-module prepare",
+    "clean": "expo-module clean",
+    "build": "expo-module build",
+    "test": "expo-module test",
+    "lint": "expo-module lint",
+    "prepublishOnly": "expo-module prepublishOnly"
+  },
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^5.0.4"
+  },
+  "devDependencies": {
+    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.2",
+    "expo-module-scripts": "^3.0.4"
+  },
+  "peerDependencies": {
+    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.2",
+    "@expo/config-plugins": "^5.0.4",
+    "expo": "*",
+    "expo-notifications": "^0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orustecnologia/expo-plugin-marketingcloudsdk.git"
+  },
+  "keywords": [
+    "expo",
+    "marketing",
+    "cloud",
+    "marketingcloudsdk",
+    "salesforce",
+    "salesforcemarketingcloudsdk",
+    "react-native",
+    "ios",
+    "android",
+    "plugin",
+    "mobile",
+    "notifications",
+    "mobile",
+    "push",
+    "notifications"
+  ],
+  "homepage": "https://github.com/orustecnologia/expo-plugin-marketingcloudsdk#readme"
+}
