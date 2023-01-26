@@ -39,15 +39,12 @@
     "expo-module-scripts": "^3.0.4"
   },
   "peerDependencies": {
-    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.4",
     "@expo/config-plugins": "^5.0.4",
+    "@orustecnologia/react-native-marketingcloudsdk": "^8.0.4",
     "expo": "*",
     "expo-notifications": "^0.17.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orustecnologia/expo-plugin-marketingcloudsdk.git"
-  },
+  "repository": "git+https://github.com/orustecnologia/expo-plugin-marketingcloudsdk.git",
   "keywords": [
     "expo",
     "marketing",
@@ -65,5 +62,5 @@
     "push",
     "notifications"
   ],
-  "homepage": "https://github.com/orustecnologia/expo-plugin-marketingcloudsdk#readme"
+  "homepage": "https://github.com/orustecnologia/expo-plugin-marketingcloudsdk"
 }
