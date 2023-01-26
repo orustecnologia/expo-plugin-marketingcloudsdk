@@ -1,4 +1,4 @@
 {
-  "name": "expo-marketingcloudsdk",
+  "name": "expo-plugin-marketingcloudsdk",
   "platforms": ["ios"]
 }
