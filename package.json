@@ -1,6 +1,6 @@
 {
   "name": "@orustecnologia/expo-plugin-marketingcloudsdk",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Orus Tecnologia LTDA",
   "license": "MIT",
   "bugs": {
@@ -42,7 +42,7 @@
     "@expo/config-plugins": "^5.0.4",
     "@orustecnologia/react-native-marketingcloudsdk": "^8.0.4",
     "expo": "*",
-    "expo-notifications": "^0.17.0"
+    "expo-notifications": "^0.16.1"
   },
   "repository": "git+https://github.com/orustecnologia/expo-plugin-marketingcloudsdk.git",
   "keywords": [
